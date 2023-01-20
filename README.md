@@ -4,6 +4,6 @@
 <img src = "assets/inversePendulum.gif">
 </p>   -->
 
-![Alt text](Assets/inversePendulum.gif)
+![](Assets/inversePendulum.gif)
 :--:
 *Controller to invert pendulum*
