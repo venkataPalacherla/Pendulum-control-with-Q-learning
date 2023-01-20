@@ -3,10 +3,10 @@ Implemented Q-learning on a pendulum to invert the position state of pendulum.
  <p align = 'center'><img src = "Assets/inversePendulum.gif"></p>  
 
 
-$\begin{algorithm}[htb]$
-$\caption{Q-learning}\label{alg:q_learning}$
-$\begin{algorithmic}[1]$
-$\State Set $\gamma \in [0, 1]$, $\epsilon$ and $\alpha$.$
+\begin{algorithm}[htb]
+\caption{Q-learning}\label{alg:q_learning}
+\begin{algorithmic}[1]
+\State Set $\gamma \in [0, 1]$, $\epsilon$ and $\alpha$.
 \State Initialize $Q(x, u)$ for all states and controls .
 \For{$episode$ in $episodes$}
 \State Initialize state $x_0$
@@ -18,7 +18,7 @@ $\State Set $\gamma \in [0, 1]$, $\epsilon$ and $\alpha$.$
 \State Update $Q(x_t, u_t)$
 \EndFor
 \EndFor
-$\end{algorithmic}$
-$\end{algorithm}$
+\end{algorithmic}
+\end{algorithm}
 
 
